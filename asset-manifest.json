@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a38e2424.css",
-    "main.js": "/static/js/main.abd473e0.js",
+    "main.js": "/static/js/main.f6f3fb4c.js",
     "static/media/crypto-portfolio-remade.jpg": "/static/media/crypto-portfolio-remade.4be47ddaa7f010ab6d9a.jpg",
     "static/media/covid-19-data-visualization.jpg": "/static/media/covid-19-data-visualization.5277a3a3926275d7707e.jpg",
     "static/media/crypto-portfolio-old.jpg": "/static/media/crypto-portfolio-old.e7d858346a52b5aec296.jpg",
@@ -14,11 +14,11 @@
     "static/media/kubernetes.svg": "/static/media/kubernetes.9c5a755e92dceda60802a9514d984ccb.svg",
     "static/media/jquery.svg": "/static/media/jquery.19eaa6a860fc83e0fdd7adcbc051e702.svg",
     "static/media/react.svg": "/static/media/react.8e63d418a6421cc2662e234ac8af7313.svg",
+    "static/media/java.svg": "/static/media/java.fc8c3ddf29202c82dbcd183e3df9c930.svg",
     "static/media/bash.svg": "/static/media/bash.ed132fce1f434aa2bba28840769613cb.svg",
     "static/media/laravel.svg": "/static/media/laravel.c465570898b7356811834c89d07c47d0.svg",
     "static/media/docker.svg": "/static/media/docker.0c0999b7624d2bfcb7710aa3f22b1cf2.svg",
     "static/media/python.svg": "/static/media/python.e146c98dc5517bd9c7e63d6f63a6a1df.svg",
-    "static/media/java.svg": "/static/media/java.24b4dc8247cc3443b6ce62b831fe7dac.svg",
     "static/media/php.svg": "/static/media/php.1942de9eeb653e4d3d0138c24d39939b.svg",
     "static/media/javascript.svg": "/static/media/javascript.5ee3c82fade3a5a9c98dc18702a4f717.svg",
     "static/media/ubuntu.svg": "/static/media/ubuntu.582ad9871dacc0770a90c48262877690.svg",
@@ -39,10 +39,10 @@
     "static/media/tensorflow.svg": "/static/media/tensorflow.2c1801bb18ea8780cb4a759879fe54ce.svg",
     "static/media/vuejs.svg": "/static/media/vuejs.e810a9a486ec54e5b07b25ce63c265a2.svg",
     "main.a38e2424.css.map": "/static/css/main.a38e2424.css.map",
-    "main.abd473e0.js.map": "/static/js/main.abd473e0.js.map"
+    "main.f6f3fb4c.js.map": "/static/js/main.f6f3fb4c.js.map"
   },
   "entrypoints": [
     "static/css/main.a38e2424.css",
-    "static/js/main.abd473e0.js"
+    "static/js/main.f6f3fb4c.js"
   ]
 }
