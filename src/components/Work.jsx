@@ -133,7 +133,7 @@ const Work = () => {
             />
             <div className="p-5">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100 h-16 min-h-0 max-h-16">
-                Parqet Darkmode
+                Darkmode for Parqet
               </h5>
               <div className="flex items-center mb-3">
                 <CSSIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />
