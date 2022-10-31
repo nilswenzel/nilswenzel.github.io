@@ -5,9 +5,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 @layer base {
+    html {
+        /* smooth snap scroll */
+        @apply snap-y;
+        @apply snap-mandatory;
+        @apply overflow-y-scroll;
+
+        /* react-scroll needs this for smooth scrolling */
+        @apply scroll-smooth;
+    }
     body {
         @apply dark:bg-[#191a1f] bg-slate-50; /* scroll-bounce page background color at top and bottom */
         @apply font-[Raleway];
+
+        /* smooth snap scroll */
+        @apply w-screen;
+        @apply h-screen;
+        @apply m-0;
     }
     li {
         @apply px-4;

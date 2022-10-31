@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import { ReactComponent as JavaScriptIcon } from "../assets/icons/javascript.svg";
 import { ReactComponent as HTMLIcon } from "../assets/icons/html.svg";
 import { ReactComponent as CSSIcon } from "../assets/icons/css.svg";
@@ -28,11 +28,29 @@ import { ReactComponent as PandasIcon } from "../assets/icons/pandas.svg";
 import { ReactComponent as UbuntuIcon } from "../assets/icons/ubuntu.svg";
 import { ReactComponent as BashIcon } from "../assets/icons/bash.svg";
 
+import { animate } from "../js/animations.js";
+
 const Skills = () => {
+
+  useEffect(() => {
+    animate(
+      ".animate-from-left-1000ms",
+      "motion-safe:animate-fadeFromLeft1000ms"
+    );
+    animate(
+      ".animate-from-left-1200ms",
+      "motion-safe:animate-fadeFromLeft1200ms"
+    );
+    animate(
+      ".animate-from-left-1400ms",
+      "motion-safe:animate-fadeFromLeft1400ms"
+    );
+  }, []);
+  
   return (
     <div
       name="skills"
-      className="w-full mb-20 bg-slate-50 dark:bg-[#191a1f] text-gray-300"
+      className="w-screen h-fit sm:h-screen bg-slate-50 dark:bg-[#191a1f] text-gray-300 snap-start scroll-m-[80px]"
     >
       {/* Container */}
       <div className="max-w-[1250px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -45,7 +63,8 @@ const Skills = () => {
           </p>
         </div>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-center py-8">
-          <div className="shadow-sm bg-white dark:bg-[#23242a] rounded-md">
+          {/* frontend */}
+          <div className="shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1000ms">
             <h1 className="mt-4 text-2xl font-semibold text-gray-600 dark:text-gray-400">
               frontend
             </h1>
@@ -144,7 +163,7 @@ const Skills = () => {
             </ul>
           </div>
           {/* backend */}
-          <div className="bg-white shadow-sm dark:bg-[#23242a] rounded-md">
+          <div className="bg-white shadow-sm dark:bg-[#23242a] rounded-md animate-from-left-1200ms">
             <h1 className="mt-4 text-2xl font-semibold text-gray-600 dark:text-gray-400">
               backend
             </h1>
@@ -261,7 +280,7 @@ const Skills = () => {
             </ul>
           </div>
           {/* other */}
-          <div className="bg-white shadow-sm dark:bg-[#23242a] rounded-md">
+          <div className="bg-white shadow-sm dark:bg-[#23242a] rounded-md animate-from-left-1400ms">
             <h1 className="mt-4 text-2xl font-semibold text-gray-600 dark:text-gray-400">
               other
             </h1>
