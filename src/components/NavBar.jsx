@@ -92,6 +92,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
             spy={true}
+            offset={-80}
             activeClass="active-link"
           >
             Home
@@ -103,6 +104,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
             spy={true}
+            offset={-80}
             activeClass="active-link"
           >
             About
@@ -114,6 +116,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
             spy={true}
+            offset={-80}
             activeClass="active-link"
           >
             Skills
@@ -125,6 +128,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
             spy={true}
+            offset={-80}
             activeClass="active-link"
           >
             Work
@@ -136,6 +140,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
             spy={true}
+            offset={-80}
             activeClass="active-link"
           >
             Contact
