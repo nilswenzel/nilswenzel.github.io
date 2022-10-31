@@ -13,7 +13,6 @@ import { ReactComponent as LaravelIcon } from "../assets/icons/laravel.svg";
 import { ReactComponent as PythonIcon } from "../assets/icons/python.svg";
 import { ReactComponent as DjangoIcon } from "../assets/icons/django.svg";
 import { ReactComponent as MySQLIcon } from "../assets/icons/mysql.svg";
-import { ReactComponent as MongoDBIcon } from "../assets/icons/mongodb.svg";
 import { ReactComponent as DockerIcon } from "../assets/icons/docker.svg";
 import { ReactComponent as KubernetesIcon } from "../assets/icons/kubernetes.svg";
 import { ReactComponent as GitLabIcon } from "../assets/icons/gitlab.svg";
@@ -261,19 +260,6 @@ const Skills = () => {
                   </p>
                   <p className="text-gray-500 dark:text-gray-400 font-semibold text-base">
                     basic
-                  </p>
-                </div>
-              </li>
-              <li className="flex flex-row w-full">
-                <div className="basis-1/3">
-                  <MongoDBIcon className="h-16 w-16 mr-2 fill-[#47A248]" />
-                </div>
-                <div className="flex flex-col basis-2/3 text-left justify-center">
-                  <p className="text-gray-700 dark:text-gray-300 font-semibold text-xl">
-                    MongoDB
-                  </p>
-                  <p className="text-gray-500 dark:text-gray-400 font-semibold text-base">
-                    very basic
                   </p>
                 </div>
               </li>
