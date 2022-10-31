@@ -7,6 +7,10 @@ import { ReactComponent as DockerIcon } from "../../assets/icons/docker.svg";
 import { ReactComponent as KubernetesIcon } from "../../assets/icons/kubernetes.svg";
 import { ReactComponent as GitLabIcon } from "../../assets/icons/gitlab.svg";
 import { ReactComponent as JiraIcon } from "../../assets/icons/jira.svg";
+import { ReactComponent as VueJSIcon } from "../../assets/icons/vuejs.svg";
+import { ReactComponent as JavaScriptIcon } from "../../assets/icons/javascript.svg";
+import { ReactComponent as HTMLIcon } from "../../assets/icons/html.svg";
+import { ReactComponent as CSSIcon } from "../../assets/icons/css.svg";
 
 const TimelineWork = () => {
   return (
@@ -51,6 +55,10 @@ const TimelineWork = () => {
             <KubernetesIcon className="h-4 w-4 mr-2 fill-gray-500 dark:fill-gray-400" />
             <GitLabIcon className="h-4 w-4 mr-2 fill-gray-500 dark:fill-gray-400" />
             <JiraIcon className="h-4 w-4 mr-2 fill-gray-500 dark:fill-gray-400" />
+            <VueJSIcon className="h-4 w-4 mr-2 fill-gray-500 dark:fill-gray-400" />
+            <JavaScriptIcon className="h-4 w-4 mr-2 fill-gray-500 dark:fill-gray-400" />
+            <HTMLIcon className="h-4 w-4 mr-2 fill-gray-500 dark:fill-gray-400" />
+            <CSSIcon className="h-4 w-4 mr-2 fill-gray-500 dark:fill-gray-400" />
           </div>
         </li>
       </ol>
