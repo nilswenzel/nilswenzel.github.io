@@ -9,7 +9,7 @@ const Home = () => {
       className="w-screen h-screen bg-gray-50 dark:bg-[#191a1f] snap-start scroll-m-[80px]"
     >
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <h1 className="mb-2 font-mono font-bold text-4xl text-gray-100 md:text-6xl">
+        <h1 className="mb-2 font-mono font-bold text-4xl text-gray-700 dark:text-gray-100 md:text-6xl">
           hi, I&apos;m <br className="block md:hidden" />
           <span className="relative">
             <span className="h-20 pt-2 overflow-x-hidden whitespace-nowrap text-sky-600">
