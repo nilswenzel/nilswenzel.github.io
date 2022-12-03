@@ -47,7 +47,7 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="flex flex-nowrap justify-start gap-8 overflow-x-scroll scrollbar-thin scrollbar-thumb-sky-600 scrollbar-track-[#23242a]">
+        <div className="flex flex-nowrap justify-start gap-8 overflow-x-scroll scrollbar-thin scrollbar-thumb-sky-600 dark:scrollbar-track-[#23242a] scrollbar-track-white">
           {/* card */}
           <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <img
