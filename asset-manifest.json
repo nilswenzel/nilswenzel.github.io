@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a38e2424.css",
-    "main.js": "/static/js/main.f6f3fb4c.js",
+    "main.css": "/static/css/main.b42258a6.css",
+    "main.js": "/static/js/main.624d3f09.js",
     "static/media/crypto-portfolio-remade.jpg": "/static/media/crypto-portfolio-remade.4be47ddaa7f010ab6d9a.jpg",
     "static/media/covid-19-data-visualization.jpg": "/static/media/covid-19-data-visualization.5277a3a3926275d7707e.jpg",
     "static/media/crypto-portfolio-old.jpg": "/static/media/crypto-portfolio-old.e7d858346a52b5aec296.jpg",
@@ -30,7 +30,6 @@
     "static/media/django.svg": "/static/media/django.984c00ac999535542833f6171a1dec4a.svg",
     "static/media/gitlab.svg": "/static/media/gitlab.80f89bda60108a310f26c295afe46615.svg",
     "static/media/googlechrome.svg": "/static/media/googlechrome.45453d96d8a5b2c63e9dd5939c58a396.svg",
-    "static/media/mongodb.svg": "/static/media/mongodb.d930c2c4198d1000c2fb8b7d3177a44c.svg",
     "static/media/stackoverflow.svg": "/static/media/stackoverflow.ecf338b6cde511ce204a48a2afa82623.svg",
     "static/media/jira.svg": "/static/media/jira.ad24e39066cb46920ec5a989e83092d0.svg",
     "static/media/pandas.svg": "/static/media/pandas.26ff1c0502d192cd5b4766b6a13d643c.svg",
@@ -38,11 +37,11 @@
     "static/media/html.svg": "/static/media/html.8e6289ed1eb0b9f348a463db8fa3e38c.svg",
     "static/media/tensorflow.svg": "/static/media/tensorflow.2c1801bb18ea8780cb4a759879fe54ce.svg",
     "static/media/vuejs.svg": "/static/media/vuejs.e810a9a486ec54e5b07b25ce63c265a2.svg",
-    "main.a38e2424.css.map": "/static/css/main.a38e2424.css.map",
-    "main.f6f3fb4c.js.map": "/static/js/main.f6f3fb4c.js.map"
+    "main.b42258a6.css.map": "/static/css/main.b42258a6.css.map",
+    "main.624d3f09.js.map": "/static/js/main.624d3f09.js.map"
   },
   "entrypoints": [
-    "static/css/main.a38e2424.css",
-    "static/js/main.f6f3fb4c.js"
+    "static/css/main.b42258a6.css",
+    "static/js/main.624d3f09.js"
   ]
 }
