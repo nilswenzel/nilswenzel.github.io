@@ -31,29 +31,11 @@ import cryptoPortfolioOldImage from "../assets/work/crypto-portfolio-old.jpg";
 import emotionRecognitionImage from "../assets/work/emotion-recognition.jpg";
 import chatPrototypeImage from "../assets/work/chat-prototype.jpg";
 
-import { animate } from "../js/animations";
-
 const Work = () => {
-
-  useEffect(() => {
-    animate(
-      ".animate-from-left-1000ms",
-      "motion-safe:animate-fadeFromLeft1000ms"
-    );
-    animate(
-      ".animate-from-left-1200ms",
-      "motion-safe:animate-fadeFromLeft1200ms"
-    );
-    animate(
-      ".animate-from-left-1400ms",
-      "motion-safe:animate-fadeFromLeft1400ms"
-    );
-  }, []);
-
   return (
     <div
       name="work"
-      className="w-screen h-fit bg-slate-50 dark:bg-[#191a1f] text-gray-300 snap-start scroll-m-[80px]"
+      className="w-screen h-screen bg-slate-50 dark:bg-[#191a1f] text-gray-300 snap-start scroll-m-[80px]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -65,9 +47,9 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="flex flex-nowrap justify-start gap-8 overflow-x-scroll scrollbar-thin scrollbar-thumb-sky-600 scrollbar-track-[#23242a]">
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1000ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <img
               className="rounded-t-lg"
               src={cryptoPortfolioRemadeImage}
@@ -106,7 +88,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1200ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <img
               className="rounded-t-lg"
               src={covid19DataVisualizationImage}
@@ -143,7 +125,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1400ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <img
               className="rounded-t-lg"
               src={parqetDarkmodeImage}
@@ -179,7 +161,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1000ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <img
               className="rounded-t-lg"
               src={ownPortfolioImage}
@@ -213,7 +195,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1200ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <img
               className="rounded-t-lg"
               src={cryptoPortfolioOldImage}
@@ -249,7 +231,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1400ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <img
               className="rounded-t-lg"
               src={emotionRecognitionImage}
@@ -283,7 +265,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1000ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <div className="flex items-center justify-center h-[195px] w-full">
               <MdNoPhotography className="w-10 h-10" />
             </div>
@@ -315,7 +297,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1200ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <div className="flex items-center justify-center h-[195px] w-full">
               <MdNoPhotography className="w-10 h-10" />
             </div>
@@ -350,7 +332,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1400ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <div className="flex items-center justify-center h-[195px] w-full">
               <MdNoPhotography className="w-10 h-10" />
             </div>
@@ -380,7 +362,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1000ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <div className="flex items-center justify-center h-[195px] w-full">
               <MdNoPhotography className="w-10 h-10" />
             </div>
@@ -414,7 +396,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="max-w-sm shadow-sm bg-white dark:bg-[#23242a] rounded-md animate-from-left-1200ms">
+          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
             <img
               className="rounded-t-lg"
               src={chatPrototypeImage}
