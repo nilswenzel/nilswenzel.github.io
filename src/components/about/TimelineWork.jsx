@@ -15,9 +15,9 @@ import { ReactComponent as CSSIcon } from "../../assets/icons/css.svg";
 const TimelineWork = () => {
   return (
     <div>
-      <ol className="relative z-0 border-l-4 border-sky-600 inline-block text-left">
+      <ol className="relative z-0 border-l-4 border-teal-500 inline-block text-left">
         <li className="mb-10 ml-4">
-          <div className="absolute w-4 h-4 bg-sky-600 rounded-full mt-1.5 -left-2.5 border border-sky-50 dark:border-[#191a1f] dark:bg-sky-600"></div>
+          <div className="absolute w-4 h-4 bg-teal-500 rounded-full mt-1.5 -left-2.5 border border-sky-50 dark:border-[#191a1f] dark:bg-teal-500"></div>
           <time className="flex items-center mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">
             <FaRegCalendarAlt className="h-3 w-3 mr-1" /> April 2022 - August
             2022
@@ -38,7 +38,7 @@ const TimelineWork = () => {
           </div>
         </li>
         <li className="mb-10 ml-4">
-          <div className="absolute w-4 h-4 bg-sky-600 rounded-full mt-1.5 -left-2.5 border border-slate-50 dark:border-[#191a1f] dark:bg-sky-600"></div>
+          <div className="absolute w-4 h-4 bg-teal-500 rounded-full mt-1.5 -left-2.5 border border-slate-50 dark:border-[#191a1f] dark:bg-teal-500"></div>
           <time className="mb-1 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">
             September 2022 -
           </time>

@@ -18,7 +18,7 @@ const Timeline = () => {
               <button
                 className={
                   timeline === "education"
-                    ? "inline-block p-4 rounded-t-lg border-b-2 border-sky-600"
+                    ? "inline-block p-4 rounded-t-lg border-b-2 border-teal-500"
                     : "inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 dark:hover:border-gray-300 hover:border-gray-700 dark:hover:text-gray-300"
                 }
                 onClick={toggleTimeline}
@@ -33,7 +33,7 @@ const Timeline = () => {
               <button
                 className={
                   timeline === "work"
-                    ? "inline-block p-4 rounded-t-lg border-b-2 border-sky-600"
+                    ? "inline-block p-4 rounded-t-lg border-b-2 border-teal-500"
                     : "inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 dark:hover:border-gray-300 hover:border-gray-700 dark:hover:text-gray-300"
                 }
                 onClick={toggleTimeline}

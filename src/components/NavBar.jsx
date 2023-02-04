@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import {
@@ -85,7 +85,7 @@ const NavBar = () => {
       </div>
 
       {/* menu */}
-      <ul className="hidden lg:pr-14 lg:flex lg:items-center text-lg font-semibold">
+      <ul className="hidden lg:pr-14 lg:flex lg:items-center text-xl font-semibold">
         <li>
           <Link
             to="home"
@@ -165,7 +165,7 @@ const NavBar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-gray-50 dark:bg-[#191a1f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-gray-50 dark:bg-[#1d1f24] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -233,7 +233,7 @@ const NavBar = () => {
       {/* social icons */}
       <div className="hidden lg:flex fixed flex-col top-[400%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
             <a
               className="flex justify-between items-center w-full font-medium text-gray-300"
               href="https://www.linkedin.com/in/nils-wenzel-6b7307240/"

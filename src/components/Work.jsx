@@ -35,11 +35,11 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-screen h-screen bg-slate-50 dark:bg-[#191a1f] text-gray-300 snap-start scroll-m-[80px]"
+      className="w-screen h-screen bg-slate-50 dark:bg-[#1d1f24] text-gray-300 snap-start scroll-m-[80px]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-700 dark:text-gray-300 border-sky-600">
+          <p className="text-4xl font-bold inline border-b-4 text-gray-700 dark:text-gray-300 border-teal-500">
             Projects
           </p>
           <p className="py-4 font-medium text-gray-500 dark:text-gray-400">
@@ -47,9 +47,9 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="flex flex-nowrap justify-start gap-8 overflow-x-scroll scrollbar-thin scrollbar-thumb-sky-600 dark:scrollbar-track-[#23242a] scrollbar-track-white">
+        <div className="flex flex-nowrap justify-start gap-8 overflow-x-scroll scrollbar-thin scrollbar-thumb-teal-500 dark:scrollbar-track-[#23242a] scrollbar-track-white">
           {/* card */}
-          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
+          <div className="min-w-[280px] mb-5 shadow-md bg-white dark:bg-[#131519] rounded-md">
             <img
               className="rounded-t-lg"
               src={cryptoPortfolioRemadeImage}
@@ -75,12 +75,12 @@ const Work = () => {
               </p>
               <div className="flex justify-start">
                 <a href="https://gitfront.io/r/user-2434316/Hk1cGwzCA33T/crypto-portfolio-reworked/">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700 mr-3">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400 mr-3">
                     GitHub
                     <FaGithub className="ml-2" />
                   </button>
                 </a>
-                <button className="hover:cursor-not-allowed inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700">
+                <button className="hover:cursor-not-allowed inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400">
                   Demo
                   <BiRightArrow className="ml-2" />
                 </button>
@@ -88,7 +88,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
+          <div className="min-w-[280px] mb-5 shadow-md bg-white dark:bg-[#131519] rounded-md">
             <img
               className="rounded-t-lg"
               src={covid19DataVisualizationImage}
@@ -110,13 +110,13 @@ const Work = () => {
               </p>
               <div className="flex justify-start">
                 <a href="https://gitfront.io/r/user-2434316/7F2GZHXK1eWg/covid-19-web-visualisation/">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700 mr-3">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400 mr-3">
                     GitHub
                     <FaGithub className="ml-2" />
                   </button>
                 </a>
                 <a href="https://informatik.hs-bremerhaven.de/nwenzel/projects/covid-19-web-visualisation/coronavirus.html">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400">
                     Demo
                     <BiRightArrow className="ml-2" />
                   </button>
@@ -125,7 +125,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
+          <div className="min-w-[280px] mb-5 shadow-md bg-white dark:bg-[#131519] rounded-md">
             <img
               className="rounded-t-lg"
               src={parqetDarkmodeImage}
@@ -146,13 +146,13 @@ const Work = () => {
               </p>
               <div className="flex justify-start">
                 <a href="https://github.com/nilswenzel/parqet-darkmode-chrome-extension">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700 mr-3">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400 mr-3">
                     GitHub
                     <FaGithub className="ml-2" />
                   </button>
                 </a>
                 <a href="https://chrome.google.com/webstore/detail/parqet-darkmode/jfhpcliegfecjhjehclnhnngbjndodoj">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400">
                     Demo
                     <BiRightArrow className="ml-2" />
                   </button>
@@ -161,7 +161,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
+          <div className="min-w-[280px] mb-5 shadow-md bg-white dark:bg-[#131519] rounded-md">
             <img
               className="rounded-t-lg"
               src={ownPortfolioImage}
@@ -180,13 +180,13 @@ const Work = () => {
               </p>
               <div className="flex justify-start">
                 <a href="https://gitfront.io/r/user-2434316/p45yfGTT9PTs/nilswenzel.github.io/">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700 mr-3">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400 mr-3">
                     GitHub
                     <FaGithub className="ml-2" />
                   </button>
                 </a>
                 <a href="https://nilswenzel.github.io/">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400">
                     Demo
                     <BiRightArrow className="ml-2" />
                   </button>
@@ -195,7 +195,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
+          <div className="min-w-[280px] mb-5 shadow-md bg-white dark:bg-[#131519] rounded-md">
             <img
               className="rounded-t-lg"
               src={cryptoPortfolioOldImage}
@@ -216,13 +216,13 @@ const Work = () => {
               </p>
               <div className="flex justify-start">
                 <a href="https://gitfront.io/r/user-2434316/yj9cvdzf7vUv/crypto-portfolio/">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700 mr-3">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400 mr-3">
                     GitHub
                     <FaGithub className="ml-2" />
                   </button>
                 </a>
                 <a href="https://informatik.hs-bremerhaven.de/nwenzel/projects/crypto-portfolio/portfolio.html?uuid=0">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400">
                     Demo
                     <BiRightArrow className="ml-2" />
                   </button>
@@ -231,7 +231,7 @@ const Work = () => {
             </div>
           </div>
           {/* card */}
-          <div className="min-w-[280px] mb-5 shadow-sm bg-white dark:bg-[#23242a] rounded-md">
+          <div className="min-w-[280px] mb-5 shadow-md bg-white dark:bg-[#131519] rounded-md">
             <img
               className="rounded-t-lg"
               src={emotionRecognitionImage}
@@ -252,12 +252,12 @@ const Work = () => {
               </p>
               <div className="flex justify-start">
                 <a href="https://gitfront.io/r/user-2434316/E76DqZ8FETEY/ki-emotion-recognition/">
-                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700 mr-3">
+                  <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400 mr-3">
                     GitHub
                     <FaGithub className="ml-2" />
                   </button>
                 </a>
-                <button className="hover:cursor-not-allowed inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-gray-100 bg-sky-600 rounded-md hover:bg-sky-700">
+                <button className="hover:cursor-not-allowed inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400">
                   Demo
                   <BiRightArrow className="ml-2" />
                 </button>

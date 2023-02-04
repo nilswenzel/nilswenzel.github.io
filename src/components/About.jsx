@@ -18,12 +18,12 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-screen h-fit sm:h-screen bg-slate-50 dark:bg-[#191a1f] text-gray-300 snap-start scroll-m-[80px]"
+      className="w-screen h-fit sm:h-screen bg-slate-50 dark:bg-[#1d1f24] text-gray-300 snap-start scroll-m-[80px]"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4 animate-from-left-1000ms">
-            <p className="text-4xl font-bold inline border-b-4 text-gray-700 dark:text-gray-300 border-sky-600">
+            <p className="text-4xl font-bold inline border-b-4 text-gray-700 dark:text-gray-300 border-teal-500">
               About
             </p>
           </div>
