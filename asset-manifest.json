@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.59997903.css",
-    "main.js": "/static/js/main.b02de23d.js",
+    "main.css": "/static/css/main.aa7de430.css",
+    "main.js": "/static/js/main.1a9b6514.js",
     "static/media/crypto-portfolio-remade.jpg": "/static/media/crypto-portfolio-remade.4be47ddaa7f010ab6d9a.jpg",
     "static/media/covid-19-data-visualization.jpg": "/static/media/covid-19-data-visualization.5277a3a3926275d7707e.jpg",
     "static/media/crypto-portfolio-old.jpg": "/static/media/crypto-portfolio-old.e7d858346a52b5aec296.jpg",
     "static/media/parqet-darkmode.jpg": "/static/media/parqet-darkmode.1178fde39e93f5ac9e2a.jpg",
-    "static/media/chat-prototype.jpg": "/static/media/chat-prototype.0c213a282cdb355c131e.jpg",
     "static/media/own-portfolio.jpg": "/static/media/own-portfolio.f06c7defa726675bc51b.jpg",
     "static/media/emotion-recognition.jpg": "/static/media/emotion-recognition.01f0bc0d4f1e58fd74ce.jpg",
     "static/media/linux.svg": "/static/media/linux.2c2d7fe45956a2ba438b85308ad0aa6a.svg",
@@ -37,11 +36,11 @@
     "static/media/html.svg": "/static/media/html.8e6289ed1eb0b9f348a463db8fa3e38c.svg",
     "static/media/tensorflow.svg": "/static/media/tensorflow.2c1801bb18ea8780cb4a759879fe54ce.svg",
     "static/media/vuejs.svg": "/static/media/vuejs.e810a9a486ec54e5b07b25ce63c265a2.svg",
-    "main.59997903.css.map": "/static/css/main.59997903.css.map",
-    "main.b02de23d.js.map": "/static/js/main.b02de23d.js.map"
+    "main.aa7de430.css.map": "/static/css/main.aa7de430.css.map",
+    "main.1a9b6514.js.map": "/static/js/main.1a9b6514.js.map"
   },
   "entrypoints": [
-    "static/css/main.59997903.css",
-    "static/js/main.b02de23d.js"
+    "static/css/main.aa7de430.css",
+    "static/js/main.1a9b6514.js"
   ]
 }
