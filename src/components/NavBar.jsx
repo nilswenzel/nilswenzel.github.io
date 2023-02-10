@@ -60,7 +60,7 @@ const NavBar = () => {
     <div className="fixed w-full top-0 z-50 h-[80px] flex justify-between items-center px-4 backdrop-filter backdrop-blur text-gray-700 dark:text-gray-300">
       <div className="flex items-center justify-start">
         <div>
-          <p className="text-lg font-semibold mr-5 md:pl-14">Nils Wenzel</p>
+          <p className="text-lg md:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-500 to-cyan-500 mr-5 md:pl-14">Nils Wenzel</p>
         </div>
         <div className="lg:hidden flex items-center">
           <a
