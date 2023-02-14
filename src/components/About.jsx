@@ -1,5 +1,5 @@
 import { React, useEffect } from "react";
-import Timeline from "./about/Timeline";
+import TimelineAbout from "./about/TimelineAbout";
 import { animate } from "../js/animations";
 
 const About = () => {
@@ -42,7 +42,7 @@ const About = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full flex justify-center mt-14 sm:mt-36">
-          <Timeline />
+          <TimelineAbout />
         </div>
       </div>
     </div>
