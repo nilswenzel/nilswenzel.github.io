@@ -38,7 +38,7 @@ const Work = () => {
             Projects
           </p>
           <p className="py-4 font-medium text-gray-500 dark:text-gray-400">
-            // Check out some of my work
+            {"// Check out some of my work"}
           </p>
         </div>
         <div className="flex flex-nowrap justify-start gap-8 overflow-x-scroll scrollbar-thin scrollbar-thumb-teal-500 dark:scrollbar-track-[#23242a] scrollbar-track-white">
@@ -50,14 +50,14 @@ const Work = () => {
             title="Cryptocurrency Portfolio (Remade)"
             description="A remade of a previous Cryptocurrency Portfolio project. This time proper restful API calls to a Laravel or Django API."
             icons={[
-              <VueJSIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <LaravelIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <DjangoIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <NumpyIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <PandasIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <TailwindCSSIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <MySQLIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <DockerIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
+              VueJSIcon,
+              LaravelIcon,
+              DjangoIcon,
+              NumpyIcon,
+              PandasIcon,
+              TailwindCSSIcon,
+              MySQLIcon,
+              DockerIcon,
             ]}
             gitHubLink="https://gitfront.io/r/user-2434316/Hk1cGwzCA33T/crypto-portfolio-reworked/"
           />
@@ -68,13 +68,7 @@ const Work = () => {
             }}
             title="Covid-19 Data Visualization"
             description="Web visualization of Covid-19 data of the world and Germany."
-            icons={[
-              <HTMLIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <CSSIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <JavaScriptIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <PHPIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <MySQLIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-            ]}
+            icons={[HTMLIcon, CSSIcon, JavaScriptIcon, PHPIcon, MySQLIcon]}
             gitHubLink="https://gitfront.io/r/user-2434316/7F2GZHXK1eWg/covid-19-web-visualisation/"
             demoLink="https://informatik.hs-bremerhaven.de/nwenzel/projects/covid-19-web-visualisation/coronavirus.html"
           />
@@ -85,11 +79,7 @@ const Work = () => {
             }}
             title="Darkmode for Parqet"
             description="A Chrome extension which adds a darkmode for a website I personally use."
-            icons={[
-              <CSSIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <JavaScriptIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <GoogleChromeIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-            ]}
+            icons={[CSSIcon, JavaScriptIcon, GoogleChromeIcon]}
             gitHubLink="https://github.com/nilswenzel/parqet-darkmode-chrome-extension"
             demoLink="https://chrome.google.com/webstore/detail/parqet-darkmode/jfhpcliegfecjhjehclnhnngbjndodoj"
           />
@@ -100,10 +90,7 @@ const Work = () => {
             }}
             title="Own Portfolio"
             description="My portfolio you're currently looking at."
-            icons={[
-              <ReactIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <TailwindCSSIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-            ]}
+            icons={[ReactIcon, TailwindCSSIcon]}
             gitHubLink="https://gitfront.io/r/user-2434316/p45yfGTT9PTs/nilswenzel.github.io/"
             demoLink="https://nilswenzel.github.io/"
           />
@@ -114,12 +101,7 @@ const Work = () => {
             }}
             title="Cryptocurrency Portfolio (Old)"
             description="A Cryptocurrency Portfolio (visualisation and calculation)."
-            icons={[
-              <ReactIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <CSSIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <PHPIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <MySQLIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-            ]}
+            icons={[ReactIcon, CSSIcon, PHPIcon, MySQLIcon]}
             gitHubLink="https://gitfront.io/r/user-2434316/yj9cvdzf7vUv/crypto-portfolio/"
             demoLink="https://informatik.hs-bremerhaven.de/nwenzel/projects/crypto-portfolio/portfolio.html?uuid=0"
           />
@@ -130,11 +112,7 @@ const Work = () => {
             }}
             title="Emotion Recognition with Machine Learning"
             description="A Neural Network to recognize human emotions in real time. A group project for university."
-            icons={[
-              <TensorflowIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <PythonIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-              <NumpyIcon className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400" />,
-            ]}
+            icons={[TensorflowIcon, PythonIcon, NumpyIcon]}
             gitHubLink="https://gitfront.io/r/user-2434316/E76DqZ8FETEY/ki-emotion-recognition/"
           />
         </div>

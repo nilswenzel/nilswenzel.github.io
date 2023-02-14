@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
         </h5>
         <div className="flex items-center mb-3">
           {props.icons.map((Icon, key) => (
-            <div key={key}>{Icon}</div>
+              <Icon key={key} className="w-4 h-4 mr-2 fill-gray-700 dark:fill-gray-400"/>
           ))}
         </div>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 h-24 min-h-0 max-h-24">
