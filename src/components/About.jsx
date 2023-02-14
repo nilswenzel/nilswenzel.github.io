@@ -1,9 +1,9 @@
 import { React, useEffect } from "react";
-import TimelineAbout from "./about/TimelineAbout";
+import TimelineMenu from "./about/TimelineMenu";
 import { animate } from "../js/animations";
 
 const About = () => {
-  
+
   useEffect(() => {
     animate(
       ".animate-from-left-1000ms",
@@ -42,7 +42,7 @@ const About = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full flex justify-center mt-14 sm:mt-36">
-          <TimelineAbout />
+          <TimelineMenu />
         </div>
       </div>
     </div>
