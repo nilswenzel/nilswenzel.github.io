@@ -3,7 +3,7 @@ import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 import TimelineEducation from "./TimelineEducation";
 import TimelineWork from "./TimelineWork";
 
-const Timeline = () => {
+const TimelineAbout = () => {
   const [timeline, setTimeline] = useState("education"); // "education" or "work"
   const toggleTimeline = () => {
     setTimeline(timeline === "education" ? "work" : "education");
@@ -54,4 +54,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default TimelineAbout;
