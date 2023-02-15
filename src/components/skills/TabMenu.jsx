@@ -252,7 +252,7 @@ const TabMenuEntry = ({ activeTab, name, title, Icon, onClick }) => {
           className={
             isActive
               ? "flex items-center text-gray-600 dark:text-gray-300"
-              : "flex items-center text-gray-400 dark:text-gray-500"
+              : "flex items-center text-gray-500 dark:text-gray-400"
           }
         >
           <Icon className="h-5 w-5 mr-2" />
