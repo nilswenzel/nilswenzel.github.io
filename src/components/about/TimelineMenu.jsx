@@ -36,17 +36,24 @@ const TimelineMenu = () => {
 };
 
 const TimelineMenuEntry = ({ activeTimeline, name, title, Icon, onClick }) => {
+  const isActive = activeTimeline === name;
   return (
     <li className="mr-2">
       <button
         className={
-          activeTimeline === name
+          isActive
             ? "inline-block p-4 rounded-t-lg border-b-2 border-teal-500"
             : "inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 dark:hover:border-gray-300 hover:border-gray-700 dark:hover:text-gray-300"
         }
         onClick={onClick}
       >
-        <div className="flex items-center text-gray-600 dark:text-gray-300">
+        <div
+          className={
+            isActive
+              ? "flex items-center text-gray-600 dark:text-gray-300"
+              : "flex items-center text-gray-400 dark:text-gray-500"
+          }
+        >
           <Icon className="h-5 w-5 mr-2" />
           <span>{title}</span>
         </div>
