@@ -86,7 +86,7 @@ const NavBar = () => {
 
       {/* menu */}
       <ul className="hidden lg:pr-14 lg:flex lg:items-center text-xl font-semibold">
-        <li>
+        <li className="hover:text-teal-500">
           <Link
             to="home"
             smooth={true}
@@ -98,7 +98,7 @@ const NavBar = () => {
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500">
           <Link
             to="about"
             smooth={true}
@@ -110,7 +110,7 @@ const NavBar = () => {
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500">
           <Link
             to="skills"
             smooth={true}
@@ -122,7 +122,7 @@ const NavBar = () => {
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500">
           <Link
             to="work"
             smooth={true}
@@ -134,7 +134,7 @@ const NavBar = () => {
             Work
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500">
           <Link
             to="contact"
             smooth={true}
@@ -146,7 +146,7 @@ const NavBar = () => {
             Contact
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500">
           {!darkmode ? (
             <BsFillMoonFill onClick={toggleDarkmode} size={17} />
           ) : (
