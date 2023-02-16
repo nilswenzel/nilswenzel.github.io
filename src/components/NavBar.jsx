@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import {
   BsFillMoonFill,
-  BsFillPersonLinesFill,
+  //BsFillPersonLinesFill,
   BsSunFill,
 } from "react-icons/bs";
 
@@ -154,7 +154,6 @@ const NavBar = () => {
           )}
         </li>
       </ul>
-
       {/* hamburger */}
       <div onClick={handleClick} className="lg:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
