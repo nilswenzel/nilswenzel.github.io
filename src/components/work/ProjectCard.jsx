@@ -22,7 +22,7 @@ const ProjectCard = (props) => {
           {props.description}
         </p>
         <div className="flex justify-start">
-          <a href={props.gitHubLink} target="_blank">
+          <a href={props.gitHubLink} target="_blank" rel="noreferrer">
             <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400 mr-3">
               GitHub
               <FaGithub className="ml-2" />
@@ -34,7 +34,7 @@ const ProjectCard = (props) => {
               <BiRightArrow className="ml-2" />
             </button>
           ) : (
-            <a href={props.demoLink} target="_blank">
+            <a href={props.demoLink} target="_blank" rel="noreferrer">
               <button className="inline-flex items-center py-2 px-3 text-sm font-semibold text-center text-[#1d1f24] bg-teal-500 rounded-md hover:bg-teal-400">
                 Demo
                 <BiRightArrow className="ml-2" />
