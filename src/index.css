@@ -15,8 +15,8 @@
         @apply scroll-smooth;
     }
     body {
-        @apply dark:bg-[#191a1f] bg-slate-50; /* scroll-bounce page background color at top and bottom */
-        @apply font-[Raleway];
+        @apply dark:bg-[#1d1f24] bg-slate-50; /* scroll-bounce page background color at top and bottom */
+        @apply font-sans;
 
         /* smooth snap scroll */
         @apply w-screen;
@@ -46,7 +46,7 @@
 
 /* active navbar list element */
 .active-link {
-    color: rgb(2, 132, 199);
+    @apply text-teal-500;
 }
 
 .will-change-transform {

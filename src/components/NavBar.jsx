@@ -4,7 +4,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import {
   BsFillMoonFill,
-  BsFillPersonLinesFill,
+  //BsFillPersonLinesFill,
   BsSunFill,
 } from "react-icons/bs";
 
@@ -60,7 +60,7 @@ const NavBar = () => {
     <div className="fixed w-full top-0 z-50 h-[80px] flex justify-between items-center px-4 backdrop-filter backdrop-blur text-gray-700 dark:text-gray-300">
       <div className="flex items-center justify-start">
         <div>
-          <p className="text-lg font-semibold mr-5 md:pl-14">Nils Wenzel</p>
+          <p className="text-lg md:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-500 to-cyan-500 mr-5 md:pl-14">Nils Wenzel</p>
         </div>
         <div className="lg:hidden flex items-center">
           <a
@@ -85,8 +85,8 @@ const NavBar = () => {
       </div>
 
       {/* menu */}
-      <ul className="hidden lg:pr-14 lg:flex lg:items-center text-lg font-semibold">
-        <li>
+      <ul className="hidden lg:pr-14 lg:flex lg:items-center text-xl font-semibold">
+        <li className="hover:text-teal-500 p-0 mx-4">
           <Link
             to="home"
             smooth={true}
@@ -98,7 +98,7 @@ const NavBar = () => {
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500 p-0 mx-4">
           <Link
             to="about"
             smooth={true}
@@ -110,7 +110,7 @@ const NavBar = () => {
             About
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500 p-0 mx-4">
           <Link
             to="skills"
             smooth={true}
@@ -122,7 +122,7 @@ const NavBar = () => {
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500 p-0 mx-4">
           <Link
             to="work"
             smooth={true}
@@ -134,7 +134,7 @@ const NavBar = () => {
             Work
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500 p-0 mx-4">
           <Link
             to="contact"
             smooth={true}
@@ -146,7 +146,7 @@ const NavBar = () => {
             Contact
           </Link>
         </li>
-        <li>
+        <li className="hover:text-teal-500 p-0 mx-4">
           {!darkmode ? (
             <BsFillMoonFill onClick={toggleDarkmode} size={17} />
           ) : (
@@ -154,7 +154,6 @@ const NavBar = () => {
           )}
         </li>
       </ul>
-
       {/* hamburger */}
       <div onClick={handleClick} className="lg:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
@@ -165,7 +164,7 @@ const NavBar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-gray-50 dark:bg-[#191a1f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-gray-50 dark:bg-[#1d1f24] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -233,7 +232,7 @@ const NavBar = () => {
       {/* social icons */}
       <div className="hidden lg:flex fixed flex-col top-[400%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
             <a
               className="flex justify-between items-center w-full font-medium text-gray-300"
               href="https://www.linkedin.com/in/nils-wenzel-6b7307240/"
