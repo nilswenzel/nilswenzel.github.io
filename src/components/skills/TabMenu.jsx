@@ -37,147 +37,119 @@ const SKILLS = {
   frontend: [
     {
       name: "HTML",
-      level: "intermediate",
       Icon: HTMLIcon,
     },
     {
       name: "CSS",
-      level: "basic",
       Icon: CSSIcon,
     },
     {
       name: "Tailwind CSS",
-      level: "basic",
       Icon: TailwindCSSIcon,
     },
     {
       name: "JavaScript",
-      level: "intermediate",
       Icon: JavaScriptIcon,
     },
     {
       name: "Vue.js",
-      level: "basic",
       Icon: VueJSIcon,
     },
     {
       name: "React",
-      level: "basic",
       Icon: ReactIcon,
     },
     {
       name: "jQuery",
-      level: "basic",
       Icon: JQueryIcon,
     },
   ],
   backend: [
     {
       name: "Java",
-      level: "intermediate",
       Icon: JavaIcon,
     },
     {
       name: "C++",
-      level: "basic",
       Icon: CPlusPlusIcon,
     },
     {
       name: "PHP",
-      level: "basic",
       Icon: PHPIcon,
     },
     {
       name: "Laravel",
-      level: "basic",
       Icon: LaravelIcon,
     },
     {
       name: "Bash",
-      level: "basic",
       Icon: BashIcon,
     },
     {
       name: "Python",
-      level: "basic",
       Icon: PythonIcon,
     },
     {
       name: "Django",
-      level: "very basic",
       Icon: DjangoIcon,
     },
   ],
   databases: [
     {
       name: "MySQL / MariaDB",
-      level: "intermediate",
       Icon: MySQLIcon,
     },
     {
       name: "H2 Database",
-      level: "basic",
     },
     {
       name: "Oracle Database",
-      level: "very basic",
       Icon: OracleDBIcon,
     },
     {
       name: "Redis",
-      level: "very basic",
       Icon: RedisIcon,
     },
     {
       name: "MongoDB",
-      level: "very basic",
       Icon: MongoDBIcon,
     },
     {
       name: "Elasticsearch",
-      level: "very basic",
       Icon: ElasticsearchIcon,
     },
   ],
   other: [
     {
       name: "Docker",
-      level: "intermediate",
       Icon: DockerIcon,
     },
     {
       name: "Kubernetes & Helm",
-      level: "basic",
       Icon: KubernetesIcon,
     },
     {
       name: "Tensorflow",
-      level: "basic",
       Icon: TensorflowIcon,
     },
     {
       name: "GitLab CI/CD Pipelines",
-      level: "intermediate",
       Icon: GitLabIcon,
     },
     {
       name: "Git",
-      level: "intermediate",
       Icon: GitIcon,
     },
     {
       name: "Linux & Shell",
-      level: "intermediate",
       Icon: LinuxIcon,
     },
     {
       name: "Jira",
-      level: "basic",
       Icon: JiraIcon,
     },
     {
       name: "Stack Overflow",
-      level: "expert",
       Icon: StackOverflowIcon,
     },
   ],
@@ -267,21 +239,16 @@ const Tab = ({ skills }) => {
   return (
     <div className="flex flex-wrap items-start justify-center content-start gap-3 max-w-[50%]">
       {skills.map((skill, key) => {
-        const { name, level, Icon } = skill;
+        const { name, Icon } = skill;
         return (
           <div
             key={key}
             className="flex rounded-md w-full md:w-fit shadow-md px-6 py-3 bg-white dark:bg-[#131519] border border-transparent hover:border-teal-500 cursor-pointer"
           >
-            <div className="basis-1/3 flex items-center justify-center">
+            <div className="flex items-center justify-center">
               {Icon == null ? <></> : <Icon className="h-8 w-8 mr-4" />}
-            </div>
-            <div className="flex flex-col basis-2/3 text-left justify-center">
               <span className="text-gray-700 dark:text-gray-300 font-semibold text-base md:text-lg whitespace-normal md:whitespace-nowrap">
                 {name}
-              </span>
-              <span className="text-gray-500 dark:text-gray-400 font-semibold text-xs md:text-sm mt-[.5]">
-                {level}
               </span>
             </div>
           </div>
