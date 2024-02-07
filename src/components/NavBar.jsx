@@ -122,6 +122,7 @@ const NavBar = () => {
             Skills
           </Link>
         </li>
+        {/*
         <li className="hover:text-teal-500 p-0 mx-4">
           <Link
             to="work"
@@ -134,6 +135,7 @@ const NavBar = () => {
             Work
           </Link>
         </li>
+         */}
         <li className="hover:text-teal-500 p-0 mx-4">
           <Link
             to="contact"
@@ -203,6 +205,7 @@ const NavBar = () => {
             Skills
           </Link>
         </li>
+        {/*
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
@@ -215,6 +218,7 @@ const NavBar = () => {
             Work
           </Link>
         </li>
+        */}
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
