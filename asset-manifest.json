@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.85cd55a5.css",
-    "main.js": "/static/js/main.e0ec721a.js",
+    "main.css": "/static/css/main.6fee00b1.css",
+    "main.js": "/static/js/main.ff9c2428.js",
     "static/media/crypto-portfolio-remade.jpg": "/static/media/crypto-portfolio-remade.4be47ddaa7f010ab6d9a.jpg",
     "static/media/covid-19-data-visualization.jpg": "/static/media/covid-19-data-visualization.5277a3a3926275d7707e.jpg",
     "static/media/crypto-portfolio-old.jpg": "/static/media/crypto-portfolio-old.e7d858346a52b5aec296.jpg",
@@ -39,11 +39,11 @@
     "static/media/html.svg": "/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/stackoverflow.svg": "/static/media/stackoverflow.e3db5ec4b504809b8dea5379b5cc8834.svg",
     "static/media/vuejs.svg": "/static/media/vuejs.4921ee763e7954a01fa7d9bc10d1ab93.svg",
-    "main.85cd55a5.css.map": "/static/css/main.85cd55a5.css.map",
-    "main.e0ec721a.js.map": "/static/js/main.e0ec721a.js.map"
+    "main.6fee00b1.css.map": "/static/css/main.6fee00b1.css.map",
+    "main.ff9c2428.js.map": "/static/js/main.ff9c2428.js.map"
   },
   "entrypoints": [
-    "static/css/main.85cd55a5.css",
-    "static/js/main.e0ec721a.js"
+    "static/css/main.6fee00b1.css",
+    "static/js/main.ff9c2428.js"
   ]
 }
