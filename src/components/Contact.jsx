@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const isFormValid = () => {
+    return formData.name && formData.email && formData.message;
+  };
+
   return (
     <div
       name="contact"
-      className="w-screen h-screen bg-slate-50 dark:bg-[#1d1f24] dark:text-gray-100 flex justify-center items-center p-4 snap-start scroll-m-[80px]"
+      className="h-screen bg-slate-50 dark:bg-[#1d1f24] dark:text-gray-100 flex justify-center items-center p-4 snap-start"
     >
       <form
         method="POST"
@@ -24,22 +42,32 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          value={formData.name}
+          onChange={handleChange}
         />
         <input
           className="bg-white dark:bg-[#131519] shadow-md my-4 p-2 rounded-md"
           type="email"
           placeholder="Email"
           name="email"
+          value={formData.email}
+          onChange={handleChange}
         />
         <textarea
           className="bg-white dark:bg-[#131519] shadow-md rounded-md p-2"
           name="message"
           rows="10"
           placeholder="Your message"
+          value={formData.message}
+          onChange={handleChange}
         ></textarea>
-        <button className="bg-teal-500 hover:bg-teal-400 shadow-md font-semibold text-lg text-[#1d1f24] px-4 py-2 rounded-md my-8 mx-auto flex items-center">
-          Send
-        </button>
+        <button
+          type="submit"
+          className="bg-teal-500 hover:cursor-pointer hover:bg-teal-400 shadow-md font-semibold text-lg text-[#1d1f24] px-4 py-2 rounded-md my-8 mx-auto flex items-center"
+          disabled={!isFormValid()}
+        >
+        Send
+      </button>
       </form>
     </div>
   );

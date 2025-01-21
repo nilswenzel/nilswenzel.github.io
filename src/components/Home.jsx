@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-scroll";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import ScrollDownIndicator from "./home/ScrollDownIndicator";
 
 const Home = () => {
   return (
     <div
       name="home"
-      className="w-screen h-screen bg-gray-50 dark:bg-[#1d1f24] snap-start scroll-m-[80px]"
+      className="h-screen bg-gray-50 dark:bg-[#1d1f24] snap-start"
     >
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <h1 className="mb-2 font-mono font-bold text-4xl text-gray-700 dark:text-gray-100 md:text-6xl">
@@ -22,16 +21,7 @@ const Home = () => {
           I’m currently studying computer science and plan to be a Full Stack
           developer.
         </p>
-        <div>
-          <Link to="about" smooth={true} duration={500}>
-            <button className="bg-gradient-to-r from-emerald-500 to-teal-500 text-lg text-[#1d1f24] font-bold group flex items-center px-4 py-2 rounded-md">
-              View Work
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3 w-6 h-6" />
-              </span>
-            </button>
-          </Link>
-        </div>
+        <ScrollDownIndicator />
       </div>
     </div>
   );

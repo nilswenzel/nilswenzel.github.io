@@ -12,10 +12,15 @@ const TimelineInfoModal = (props) => {
       />
 
       {showModal ? (
-        <div className="flex justify-center items-center w-auto overflow-x-hidden overflow-y-auto fixed inset-0 z-50">
-          <div className="max-w-2xl">
+        <div className="fixed inset-0 z-50 flex justify-center items-center">
+          <div
+            className="fixed inset-0 bg-black opacity-50"
+            onClick={() => setShowModal(false)} // Schließt das Modal bei Klick auf den Hintergrund
+          ></div>
+
+          <div className="max-w-2xl relative z-50">
             <div className="pt-6 pb-3 px-6 rounded-lg shadow-lg relative w-full bg-white dark:bg-[#131519]">
-              <div class="absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-4 mr-4 text-white text-sm z-50">
+              <div className="absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-4 mr-4 text-white text-sm z-50">
                 <AiOutlineClose
                   onClick={() => setShowModal(false)}
                   className="text-teal-500 hover:text-teal-400 w-5 h-5"
