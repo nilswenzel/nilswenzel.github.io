@@ -1,21 +1,24 @@
-# Portfolio
+# nilswenzel.github.io
 
-## Deployment
+## Local development
+1. Start devcontainer
 
-### Deploy for local development
-
-```shell
-$ npm start
+2. Install dependencies
+``` shell
+npm install
 ```
 
-### Deploy to Github Pages: [nilswenzel.github.io](https://nilswenzel.github.io/)
-
+3. Start dev server
 ```shell
-$ npm run deploy -- -m "<message>"
+npm start
 ```
 
-## Sources
+## Deploy to Github Pages: [nilswenzel.github.io](https://nilswenzel.github.io/)
+```shell
+npm run deploy -- -m "<message>"
+```
 
-### Icons
-[icon8](https://icons8.com/) <br>
-[worldvectorlogo](https://worldvectorlogo.com/)
+## Icon sources
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [icon8](https://icons8.com/)
+- [worldvectorlogo](https://worldvectorlogo.com/)
