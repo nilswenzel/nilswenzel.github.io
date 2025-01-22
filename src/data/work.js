@@ -1,17 +1,17 @@
-import { ReactComponent as LinuxIcon } from "../assets/icons/linux.svg";
-import { ReactComponent as DockerIcon } from "../assets/icons/docker.svg";
-import { ReactComponent as KubernetesIcon } from "../assets/icons/kubernetes.svg";
-import { ReactComponent as GitLabIcon } from "../assets/icons/gitlab.svg";
-import { ReactComponent as JiraIcon } from "../assets/icons/jira.svg";
-import { ReactComponent as VueJSIcon } from "../assets/icons/vuejs.svg";
-import { ReactComponent as JavaIcon } from "../assets/icons/java.svg";
+import linux from "../assets/icons/linux.svg";
+import docker from "../assets/icons/docker.svg";
+import kubernetes from "../assets/icons/kubernetes.svg";
+import gitlab from "../assets/icons/gitlab.svg";
+import jira from "../assets/icons/jira.svg";
+import vuejs from "../assets/icons/vuejs.svg";
+import java from "../assets/icons/java.svg";
 
 export const work = [
     {
         date: "April 2022 - August 2022",
         title: "Internship (Practical Semester)",
         location: "Alfred Wegener Institut, Bremerhaven",
-        icons: [LinuxIcon, DockerIcon, KubernetesIcon, GitLabIcon, JiraIcon],
+        icons: [linux, docker, kubernetes, gitlab, jira],
         modal: {
             title: "Internship (Practical Semester)",
             location: "Alfred Wegener Institut, Bremerhaven",
@@ -39,7 +39,7 @@ export const work = [
         date: "September 2022 - March 2025",
         title: "Werkstudent",
         location: "Alfred Wegener Institut, Bremerhaven",
-        icons: [LinuxIcon, DockerIcon, KubernetesIcon, GitLabIcon, JiraIcon, VueJSIcon, JavaIcon],
+        icons: [linux, docker, kubernetes, gitlab, jira, vuejs, java],
         modal: {
             title: "Werkstudent",
             location: "Alfred Wegener Institut, Bremerhaven",

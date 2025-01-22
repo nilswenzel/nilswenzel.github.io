@@ -10,7 +10,10 @@ npm install
 
 3. Start dev server
 ```shell
-npm start
+npm run dev
+```
+```
+npm run preview
 ```
 
 ## Deploy to Github Pages: [nilswenzel.github.io](https://nilswenzel.github.io/)

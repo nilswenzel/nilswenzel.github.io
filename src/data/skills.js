@@ -1,36 +1,36 @@
-import { ReactComponent as JavaIcon } from "../assets/icons/java.svg";
-import { ReactComponent as CPlusPlusIcon } from "../assets/icons/cplusplus.svg";
-import { ReactComponent as CIcon } from "../assets/icons/c.svg";
-import { ReactComponent as PythonIcon } from "../assets/icons/python.svg";
-import { ReactComponent as JavaScriptIcon } from "../assets/icons/javascript.svg";
-import { ReactComponent as PHPIcon } from "../assets/icons/php.svg";
-import { ReactComponent as HTMLIcon } from "../assets/icons/html.svg";
-import { ReactComponent as CSSIcon } from "../assets/icons/css.svg";
-import { ReactComponent as BashIcon } from "../assets/icons/bash.svg";
+import java from "../assets/icons/java.svg";
+import cplusplus from "../assets/icons/cplusplus.svg";
+import c from "../assets/icons/c.svg";
+import python from "../assets/icons/python.svg";
+import javascript from "../assets/icons/javascript.svg";
+import php from "../assets/icons/php.svg";
+import html from "../assets/icons/html.svg";
+import css from "../assets/icons/css.svg";
+import bash from "../assets/icons/bash.svg";
 
-import { ReactComponent as LaravelIcon } from "../assets/icons/laravel.svg";
-import { ReactComponent as SpringBootIcon } from "../assets/icons/spring-boot.svg";
-import { ReactComponent as VueJSIcon } from "../assets/icons/vuejs.svg";
-import { ReactComponent as ReactIcon } from "../assets/icons/react.svg";
-import { ReactComponent as TailwindCSSIcon } from "../assets/icons/tailwindcss.svg";
-import { ReactComponent as BootstrapIcon } from "../assets/icons/bootstrap.svg";
+import laravel from "../assets/icons/laravel.svg";
+import springboot from "../assets/icons/springboot.svg";
+import vuejs from "../assets/icons/vuejs.svg";
+import react from "../assets/icons/react.svg";
+import tailwindcss from "../assets/icons/tailwindcss.svg";
+import bootstrap from "../assets/icons/bootstrap.svg";
 
-import { ReactComponent as DockerIcon } from "../assets/icons/docker.svg";
-import { ReactComponent as KubernetesIcon } from "../assets/icons/kubernetes.svg";
-import { ReactComponent as GitLabIcon } from "../assets/icons/gitlab.svg";
-import { ReactComponent as GitIcon } from "../assets/icons/git.svg";
-import { ReactComponent as LinuxIcon } from "../assets/icons/linux.svg";
-import { ReactComponent as JiraIcon } from "../assets/icons/jira.svg";
+import docker from "../assets/icons/docker.svg";
+import kubernetes from "../assets/icons/kubernetes.svg";
+import gitlab from "../assets/icons/gitlab.svg";
+import git from "../assets/icons/git.svg";
+import linux from "../assets/icons/linux.svg";
+import jira from "../assets/icons/jira.svg";
 
-import { ReactComponent as GermanIcon } from "../assets/icons/germany.svg";
-import { ReactComponent as EnglishIcon } from "../assets/icons/britain.svg";
-import { ReactComponent as FrenchIcon } from "../assets/icons/france.svg";
+import germany from "../assets/icons/germany.svg";
+import britain from "../assets/icons/britain.svg";
+import france from "../assets/icons/france.svg";
 
 export const skills = {
     programmingLanguages: [
       {
         name: "Java",
-        Icon: JavaIcon,
+        Icon: java,
         modalBulletPoints: [
           "Extensively used during academic projects and coursework e.g. for algorithms and data structures.",
           "Experience with parallel algorithms, multithreading / concurrency, and OOP.",
@@ -39,21 +39,21 @@ export const skills = {
       },
       {
         name: "C++",
-        Icon: CPlusPlusIcon,
+        Icon: cplusplus,
         modalBulletPoints: [
           "Utilized during academic projects for implementing algorithms and data structures with OOP principles."
         ]
       },
       {
         name: "C",
-        Icon: CIcon,
+        Icon: c,
         modalBulletPoints: [
           "Utilized during academic coursework for embedded systems programming with microcontrollers."
         ]
       },
       {
         name: "Python",
-        Icon: PythonIcon,
+        Icon: python,
         modalBulletPoints: [
           "Used during academic coursework for the development of regression models, AI solutions (using scikit-learn, Keras, TensorFlow), and data visualizations (Matplotlib, Pyplot) during academic projects.",
           "Also used in personal projects for OOP, data analysis (NumPy, Pandas), and web development with Django."
@@ -61,7 +61,7 @@ export const skills = {
       },
       {
         name: "JavaScript",
-        Icon: JavaScriptIcon,
+        Icon: javascript,
         modalBulletPoints: [
           "Experience with Vanilla JavaScript during academic projects.",
           "Proficient in React, used in both academic and personal projects.",
@@ -70,7 +70,7 @@ export const skills = {
       },
       {
         name: "PHP",
-        Icon: PHPIcon,
+        Icon: php,
         modalBulletPoints: [
           "Applied during academic projects for web development.",
           "Used Laravel extensively for personal projects and for the prototype of the bachelor’s thesis."
@@ -78,14 +78,14 @@ export const skills = {
       },
       {
         name: "HTML",
-        Icon: HTMLIcon,
+        Icon: html,
         modalBulletPoints: [
           "Used extensively in a lot of projects."
         ]
       },
       {
         name: "CSS",
-        Icon: CSSIcon,
+        Icon: css,
         modalBulletPoints: [
           "Used extensively in a lot of projects."
         ]
@@ -98,7 +98,7 @@ export const skills = {
       },
       {
         name: "Bash",
-        Icon: BashIcon,
+        Icon: bash,
         modalBulletPoints: [
           "Used extensively for automations, scripting, and Docker image creation in academic, personal, and professional environments."
         ]
@@ -107,42 +107,42 @@ export const skills = {
     frameworks: [
       {
         name: "Laravel",
-        Icon: LaravelIcon,
+        Icon: laravel,
         modalBulletPoints: [
           "Used for personal projects and extensively for the prototype of the bachelor’s thesis."
         ]
       },
       {
         name: "Spring Boot",
-        Icon: SpringBootIcon,
+        Icon: springboot,
         modalBulletPoints: [
           "Applied in personal projects and coursework at Hochschule Bremerhaven."
         ]
       },
       {
         name: "Vue.js",
-        Icon: VueJSIcon,
+        Icon: vuejs,
         modalBulletPoints: [
           "Utilized in personal projects and professional work at Alfred-Wegener-Institut."
         ]
       },
       {
         name: "React",
-        Icon: ReactIcon,
+        Icon: react,
         modalBulletPoints: [
           "Applied in personal projects, including this website, and in coursework at Hochschule Bremerhaven."
         ]
       },
       {
         name: "Tailwind CSS",
-        Icon: TailwindCSSIcon,
+        Icon: tailwindcss,
         modalBulletPoints: [
           "Implemented in personal projects, including this website, and in coursework at Hochschule Bremerhaven."
         ]
       },
       {
         name: "Bootstrap",
-        Icon: BootstrapIcon,
+        Icon: bootstrap,
         modalBulletPoints: [
           "Utilized during professional work at Alfred-Wegener-Institut."
         ]
@@ -151,7 +151,7 @@ export const skills = {
     other: [
       {
         name: "Docker",
-        Icon: DockerIcon,
+        Icon: docker,
         modalBulletPoints: [
           "Extensively used in professional work, academic projects, and personal environments.",
           "Experience with Docker Compose and DevContainers for dev environments."
@@ -159,28 +159,28 @@ export const skills = {
       },
       {
         name: "Kubernetes & Helm",
-        Icon: KubernetesIcon,
+        Icon: kubernetes,
         modalBulletPoints: [
           "Used in professional work at Alfred-Wegener-Institut and the prototype of the bachelor’s thesis."
         ]
       },
       {
         name: "GitLab CI/CD Pipelines",
-        Icon: GitLabIcon,
+        Icon: gitlab,
         modalBulletPoints: [
           "Configured and managed pipelines during professional work at Alfred-Wegener-Institut."
         ]
       },
       {
         name: "Git",
-        Icon: GitIcon,
+        Icon: git,
         modalBulletPoints: [
           "Used the basics in professional, academic, and personal projects for version control."
         ]
       },
       {
         name: "Linux & Shell",
-        Icon: LinuxIcon,
+        Icon: linux,
         modalBulletPoints: [
           "Gained experience with Linux virtual machines (mainly Ubuntu) during coursework, personal projects, and professional work.",
           "Set up Kubernetes clusters and performed sysadmin tasks such as setting up firewalls, web servers, and databases.",
@@ -189,7 +189,7 @@ export const skills = {
       },
       {
         name: "Jira",
-        Icon: JiraIcon,
+        Icon: jira,
         modalBulletPoints: [
           "Experience with Jira for project management at Alfred-Wegener-Institut."
         ]
@@ -198,21 +198,21 @@ export const skills = {
     languages: [
       {
         name: "German",
-        Icon: GermanIcon,
+        Icon: germany,
         modalBulletPoints: [
           "Native language."
         ]
       },
       {
         name: "English",
-        Icon: EnglishIcon,
+        Icon: britain,
         modalBulletPoints: [
           "Fluent in speaking, reading, and writing."
         ]
       },
       {
         name: "French",
-        Icon: FrenchIcon,
+        Icon: france,
         modalBulletPoints: [
           "Basic understanding of the language."
         ]
