@@ -10,13 +10,15 @@ const WorkTimeline = () => {
   return (
     <div>
       <ol className="relative z-0 border-l-4 border-teal-500 inline-block text-left">
-        {work.map((entry) => (
+        {work.map((entry, key) => (
           <TimelineWorkEntry
+            key={key}
             date={entry.date}
             title={entry.title}
             location={entry.location}
             Modal={
               <TimelineInfoModal
+                key={`modal-${key}`}
                 title={entry.modal.title}
                 location={entry.modal.location}
                 bulletpoints={entry.modal.bulletpoints}
