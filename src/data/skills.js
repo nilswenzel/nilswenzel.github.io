@@ -41,14 +41,14 @@ export const skills = {
         name: "C++",
         Icon: CPlusPlusIcon,
         modalBulletPoints: [
-          "Utilized during academic projects for implementing algorithms and data structures."
+          "Utilized during academic projects for implementing algorithms and data structures with OOP principles."
         ]
       },
       {
         name: "C",
         Icon: CIcon,
         modalBulletPoints: [
-          "Utilized during academic coursework for embedded systems programming."
+          "Utilized during academic coursework for embedded systems programming with microcontrollers."
         ]
       },
       {
