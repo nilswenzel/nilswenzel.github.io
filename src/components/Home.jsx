@@ -18,8 +18,7 @@ const Home = () => {
           </span>
         </h1>
         <p className="text-gray-500 dark:text-gray-400 text-lg md:text-xl mb-10 py-4 max-w-[700px] font-medium">
-          I’m currently studying computer science and plan to be a Full Stack
-          developer.
+          I’m currently studying computer science and plan to be a software developer.
         </p>
         <ScrollDownIndicator />
       </div>
