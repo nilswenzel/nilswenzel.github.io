@@ -21,7 +21,7 @@ const About = () => {
           <div>
             <p className="p-4 sm:p-0 text-medium font-medium text-gray-500 dark:text-gray-400">
               I am currently studying computer science in Bremerhaven, Germany
-              and plan to be a full Stack Developer after my bachelor's degree.
+              and plan to be a software developer after my bachelor's degree.
               I am passionate about building software that improves
               the lives of those around me and learning new technologies!
             </p>
