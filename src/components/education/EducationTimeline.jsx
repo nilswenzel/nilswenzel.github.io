@@ -9,14 +9,16 @@ const EducationTimeline = () => {
   return (
     <div>
       <ol className="relative border-l-4 z-0 border-teal-500 inline-block text-left">
-        {education.map((entry) => (
+        {education.map((entry, key) => (
           <EducationTimelineEntry
+            key={key}
             date={entry.date}
             title={entry.title}
             location={entry.location}
             Modal={
               entry.modal ? (
                 <TimelineInfoModal
+                  key={`modal-${key}`}
                   title={entry.modal.title}
                   location={entry.modal.location}
                   bulletpoints={entry.modal.bulletpoints}
@@ -31,7 +33,6 @@ const EducationTimeline = () => {
 };
 
 const EducationTimelineEntry = ({ date, title, location, Modal }) => {
-  console.log(Modal)
   return (
     <li className="mb-10 ml-4">
       <div className="absolute w-4 h-4 bg-gradient-to-r from-teal-500 to-teal-500 rounded-full mt-1.5 -left-2.5 border border-sky-50 dark:border-[#191a1f] dark:bg-teal-500"></div>
