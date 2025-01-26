@@ -34,7 +34,8 @@ export const skills = {
         modalBulletPoints: [
           "Extensively used during academic projects and coursework e.g. for algorithms and data structures.",
           "Experience with parallel algorithms, multithreading / concurrency, and OOP.",
-          "Worked with Java EE, JAX-RS, Spring Boot, Hibernate, JPA, and JDBC."
+          "Worked with Java EE, JAX-RS, Spring Boot, Hibernate, JPA, and JDBC.",
+          "Experience with application servers like Tomcat and WildFly."
         ]
       },
       {
@@ -65,7 +66,8 @@ export const skills = {
         modalBulletPoints: [
           "Experience with Vanilla JavaScript during academic projects.",
           "Proficient in React, used in both academic and personal projects.",
-          "Hands-on experience with Vue.js in personal projects, the prototype of the bachelor’s thesis, and professional work at Alfred-Wegener-Institut."
+          "Hands-on experience with Vue.js in personal projects, the prototype of the bachelor’s thesis, and professional work at Alfred-Wegener-Institut.",
+          "Experience using tools like npm and vite.",
         ]
       },
       {
