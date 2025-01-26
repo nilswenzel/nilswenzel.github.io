@@ -56,8 +56,8 @@ export const skills = {
         name: "Python",
         Icon: python,
         modalBulletPoints: [
-          "Used during academic coursework for the development of regression models, AI solutions (using scikit-learn, Keras, TensorFlow), and data visualizations (Matplotlib, Pyplot) during academic projects.",
-          "Also used in personal projects for OOP, data analysis (NumPy, Pandas), and web development with Django."
+          "Used during academic coursework for the development of regression models, AI solutions (using Scikit-learn, Keras, TensorFlow), and data visualizations (Matplotlib, Pyplot) during academic projects.",
+          "Also used in personal projects for OOP, data analysis (using NumPy and Pandas), and web development with Django."
         ]
       },
       {
@@ -66,7 +66,7 @@ export const skills = {
         modalBulletPoints: [
           "Experience with Vanilla JavaScript during academic projects.",
           "Proficient in React, used in both academic and personal projects.",
-          "Hands-on experience with Vue.js in personal projects, the prototype of the bachelor’s thesis, and professional work at Alfred-Wegener-Institut.",
+          "Hands-on experience with Vue.js in personal projects, the prototype of the bachelor's thesis, and professional work at Alfred-Wegener-Institut.",
           "Experience using tools like npm and vite.",
         ]
       },
@@ -75,7 +75,7 @@ export const skills = {
         Icon: php,
         modalBulletPoints: [
           "Applied during academic projects for web development.",
-          "Used Laravel extensively for personal projects and for the prototype of the bachelor’s thesis."
+          "Used Laravel extensively for personal projects and for the prototype of the bachelor's thesis."
         ]
       },
       {
@@ -111,7 +111,7 @@ export const skills = {
         name: "Laravel",
         Icon: laravel,
         modalBulletPoints: [
-          "Used for personal projects and extensively for the prototype of the bachelor’s thesis."
+          "Used for personal projects and extensively for the prototype of the bachelor's thesis."
         ]
       },
       {
@@ -163,7 +163,7 @@ export const skills = {
         name: "Kubernetes & Helm",
         Icon: kubernetes,
         modalBulletPoints: [
-          "Used in professional work at Alfred-Wegener-Institut and the prototype of the bachelor’s thesis."
+          "Used in professional work at Alfred-Wegener-Institut and the prototype of the bachelor's thesis."
         ]
       },
       {
@@ -209,7 +209,7 @@ export const skills = {
         name: "English",
         Icon: britain,
         modalBulletPoints: [
-          "Fluent in speaking, reading, and writing."
+          "High proficiency."
         ]
       },
       {
