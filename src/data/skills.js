@@ -32,10 +32,11 @@ export const skills = {
         name: "Java",
         Icon: java,
         modalBulletPoints: [
-          "Extensively used during academic projects and coursework e.g. for algorithms and data structures.",
+          "Extensively used during academic projects and coursework e.g. for algorithms and data structures and professional work at Alfred-Wegener-Institut.",
           "Experience with parallel algorithms, multithreading / concurrency, and OOP.",
-          "Worked with Java EE, JAX-RS, Spring Boot, Hibernate, JPA, and JDBC.",
-          "Experience with application servers like Tomcat and WildFly."
+          "Worked with Java EE (Jakarta EE) and Spring Boot: Servlets, JAX-RS, JSF, JPA (Hibernate).",
+          "Experience with application servers like Tomcat and WildFly.",
+          "Experience with Maven as default build tool."
         ]
       },
       {
@@ -177,7 +178,7 @@ export const skills = {
         name: "Git",
         Icon: git,
         modalBulletPoints: [
-          "Used the basics in professional, academic, and personal projects for version control."
+          "Used the basics in professional, academic, and personal projects for version control often in combination with GitLab."
         ]
       },
       {
